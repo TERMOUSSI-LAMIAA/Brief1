@@ -10,6 +10,9 @@
     justify-content: space-between;
     margin-left: 150px;
 }
+.div-form iframe{
+    margin-top:50px;
+}
 .div-form h2{
     color:rgb(1, 87, 1);
 }
@@ -30,4 +33,21 @@
 }
 .section-menu img{
     border-radius: 10%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+input[type="submit"] {
+    background-color:rgb(1, 87, 1);
+    color: #fff;
+    padding: 20px 60px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left:50px;
+}
+.div-form input[type="date"],
+.div-form input[type="number"],
+.div-form input[type="tel"],
+.div-form input[type="text"] {
+    width: 80%; 
 }
